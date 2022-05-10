@@ -1,0 +1,71 @@
+body {
+    background-image: url(/wallpaper-pixelart.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#title {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#input-new-board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+#clear-board {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+}
+
+#color-palette {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+#pixel-board {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.color {
+    width: 55px;
+    height: 55px;
+    border-color: black;
+    border: solid 1px;
+}
+
+.pixel {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-color: black;
+    border: solid 1px;    
+}
+
